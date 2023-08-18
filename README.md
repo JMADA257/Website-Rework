@@ -32,7 +32,7 @@ N/A
 Navigation Bar
 
 ## How to Contribute
-Cash is always preffered.
+Cash is always prefered.
 
 ## Tests
 N/A
