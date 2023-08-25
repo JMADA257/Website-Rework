@@ -1,13 +1,17 @@
+
+/*Unverisal selector this will affect everything on the html page*/
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
+/*adding a background color to the body element*/
 body {
   background-color: #d9dcd6;
 }
 
+/*adding different style attributes to the header element*/
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -16,15 +20,13 @@ header {
   color: #ffffff;
 }
 
+/*determiong h1 as a inline block and a specified font size */
 h1 {
   display: inline-block;
   font-size: 48px;
 }
 
-.seo {
-  color: #d9dcd6;
-}
-
+/* Saying the nav bar will have padding on the top, a margin to the right, the text will float to the right of the nav bar and have a different font family and size*/
 nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -33,24 +35,25 @@ nav {
   font-size: 20px;
 }
 
+/*removing bullet points from the ul*/
 nav ul {
   list-style-type: none;
 }
-
+/*making the list inside the unorganzied list inside the nav an inline block with specified margins*/
 nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
-
+/*changing the color, and making text decoration none of all anchors in the html*/
 a {
   color: #ffffff;
   text-decoration: none;
 }
-
+/*Changin font size for all paragraphs*/
 p {
   font-size: 16px;
 }
-
+/*making the class of hero all of thes style attributes*/
 .hero {
   height: 800px;
   width: 100%;
@@ -59,23 +62,27 @@ p {
   background-size: cover;
   background-position: center;
 }
-
+/*added the attribute of float left to anything with a class of float-left*/
 .float-left {
   float: left;
   margin-right: 25px;
 }
-
+/*changed the color of the text of anything with the seo class*/
+.seo {
+  color: #d9dcd6;
+}
+/*made things with the class of float-right actually float right*/
 .float-right {
   float: right;
   margin-left: 25px;
 }
-
+/*anything with the class of content becomes an inline block with a width of 75% and margin on the left */
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
-
+/*anything with the benefits class will gain all of these attributes*/
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -87,64 +94,30 @@ p {
   background-color: #2589bd;
 }
 
+/*condensed this code into one so now anything with this class will gain these */
 #benefit-1 {
   margin-bottom: 32px;
   color: #ffffff;
 }
-/*condensed this code into one*/
-/* .benefit-lead {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-.benefit-brand {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-.benefit-cost {
-  margin-bottom: 32px;
-  color: #ffffff;
-} */
 
 
+
+/*condensed code instead  of having multiples of the same code*/
 .benefit-h3 {
   margin-bottom: 10px;
   text-align: center;
 }
-/*condensed code*/
-/* .benefit-lead h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
 
-.benefit-brand h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
 
-.benefit-cost h3 {
-  margin-bottom: 10px;
-  text-align: center;
-} */
-
+/*condensed this code into 1 this code determines anything in this class a display block and adds max width and margin*/
 #benefit-1 img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
-/*condensed this code into 1*/
-/* .benefit-brand img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
 
-.benefit-cost img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-} */
+
+/*Took these lines of code below and merged them together*/
 
 .main-titles {
   margin-bottom: 20px;
@@ -153,67 +126,21 @@ p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #0072bb;
   color: #ffffff;
-}
-/*Took these lines of code below and merged them together*/
-/* .search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-} */
+}  
 
+/*Took these lines of code below and merged them together*/
 .main-titles img {
   max-height: 200px;
 }
-/*Took these lines of code below and merged them together*/
-/* .search-engine-optimization img {
-    max-height: 200px;
-} */
-/* .online-reputation-management img {
-    max-height: 200px;
-} */
-/* .social-media-marketing img {
-    max-height: 200px;
-} */
 
+
+/* Condensed more code*/
 .header-2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
-/* Condensed more code*/
-/* .search-engine-optimization h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
 
-.online-reputation-management h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-.social-media-marketing h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-} */
-
+/*this controls how the footer is going to look and gives it custom font*/
 .footer {
   padding: 30px;
   clear: both;
@@ -221,7 +148,7 @@ p {
     "Lucida Sans", Arial, sans-serif;
   text-align: center;
 }
-
+/* this will be applied to the h2 inside of the footer class*/
 .footer h2 {
   font-size: 20px;
 }
