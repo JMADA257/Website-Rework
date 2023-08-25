@@ -42,9 +42,3 @@ Cash is always prefered.
 ## Tests
 
 N/A
-
-## Screenshot/ links
-
-![Screenshot of website](./assets/images/Website-landing-page.png)
-[link](https://jmada257.github.io/Website-Rework/)
-[link](https://github.com/JMADA257/Website-Rework)
