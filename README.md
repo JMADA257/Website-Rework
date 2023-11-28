@@ -37,7 +37,7 @@ Navigation Bar
 
 ## How to Contribute
 
-Cash is always prefered.
+Positive feedback!
 
 ## Tests
 
